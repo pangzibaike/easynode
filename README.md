@@ -5,7 +5,7 @@ VPS 一键节点部署工具
 ## Install
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/你的用户名/easynode/main/easynode.sh | bash
+curl -fsSL https://raw.githubusercontent.com/pangzibaike/easynode/main/easynode.sh | bash
 ```
 
 ## Features
