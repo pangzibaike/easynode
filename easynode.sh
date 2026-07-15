@@ -418,7 +418,7 @@ chmod 600 "$BASE_DIR/info"
 fi
 
 
-cat > $BASE_DIR/config.json <<EOF
+cat > "$BASE_DIR/config.json" <<EOF
 {
  "log":{
    "loglevel":"warning"
