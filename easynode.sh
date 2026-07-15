@@ -261,7 +261,7 @@ echo
 echo "创建工作目录"
 
 
-mkdir -p $BASE_DIR
+mkdir -p "$BASE_DIR"
 
 
 chmod 700 "$BASE_DIR"
