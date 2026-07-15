@@ -523,7 +523,9 @@ After=network.target
 
 Type=simple
 
-ExecStart=/usr/local/bin/xray run -config $BASE_DIR/config.json
+WorkingDirectory=/etc/easynode
+
+ExecStart=/usr/local/bin/xray run -config /etc/easynode/config.json
 
 Restart=always
 
