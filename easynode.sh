@@ -477,9 +477,6 @@ echo
 echo "检查 Xray 配置"
 
 
-xray run -test -config $BASE_DIR/config.json
-
-
 if ! xray run -test -config "$BASE_DIR/config.json"
 then
 
