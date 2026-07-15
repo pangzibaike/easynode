@@ -705,7 +705,7 @@ do
 
 DOMAIN=$(journalctl \
 -u easynode-cloudflared \
--n 100 \
+-n 20 \
 --no-pager -l \
 | grep -oE "https://[-a-zA-Z0-9]+\.trycloudflare\.com" \
 | tail -n1)
