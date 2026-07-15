@@ -321,7 +321,7 @@ echo
 
 echo "下载 Xray..."
 
-curl -fL "$URL" -o $TMP
+curl -fL --retry 5 "$URL" -o "$TMP"
 
 
 
