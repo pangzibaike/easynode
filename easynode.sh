@@ -707,11 +707,11 @@ for i in {1..12}
 do
 
 
-journalctl \
+DOMAIN=$(journalctl \
 -u easynode-cloudflared \
 --since "1 minute ago" \
 -n 20 \
---no-pager -l
+--no-pager -l \
 | grep -oE "https://[-a-zA-Z0-9]+\.trycloudflare\.com" \
 | tail -n1)
 
