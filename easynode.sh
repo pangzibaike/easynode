@@ -712,7 +712,7 @@ do
 
 DOMAIN=$(journalctl \
 -u easynode-cloudflared \
---since "1 minute ago" \
+--since "5 minute ago" \
 -n 20 \
 --no-pager -l \
 | grep -oE "https://[-a-zA-Z0-9]+\.trycloudflare\.com" \
