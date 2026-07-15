@@ -474,7 +474,7 @@ echo "检查 Xray 配置"
 xray run -test -config $BASE_DIR/config.json
 
 
-if [ $? -ne 0 ]
+if ! xray run -test -config "$BASE_DIR/config.json"
 then
 
 echo "Xray 配置错误"
