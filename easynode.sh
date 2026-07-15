@@ -328,7 +328,7 @@ curl -fL --retry 5 "$URL" -o "$TMP"
 mkdir -p /tmp/xray
 
 
-unzip -o $TMP -d /tmp/xray >/dev/null || {
+unzip -o "$TMP" -d /tmp/xray >/dev/null || {
 
 echo "Xray解压失败"
 
