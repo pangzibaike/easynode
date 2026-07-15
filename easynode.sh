@@ -675,16 +675,7 @@ systemctl enable easynode-cloudflared.service
 fi
 
 
-if systemctl is-active --quiet easynode-cloudflared.service
-then
-
-    echo "Cloudflare Tunnel 已运行"
-
-else
-
-    systemctl start easynode-cloudflared.service
-
-fi
+systemctl restart easynode-cloudflared.service
 
 echo
 
