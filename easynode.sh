@@ -708,15 +708,6 @@ echo "获取 Cloudflare Tunnel 地址"
 if [ -f "$BASE_DIR/domain" ]
 then
 
-    DOMAIN=$(cat "$BASE_DIR/domain")
-
-    echo "检测到已有 Tunnel:"
-    echo "$DOMAIN"
-
-    return
-
-fi
-
 
 for i in {1..12}
 do
