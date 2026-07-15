@@ -419,7 +419,6 @@ fi
 
 
 cat > $BASE_DIR/config.json <<EOF
-chmod 600 "$BASE_DIR/config.json"
 {
  "log":{
    "loglevel":"warning"
@@ -456,6 +455,9 @@ chmod 600 "$BASE_DIR/config.json"
  ]
 }
 EOF
+
+
+chmod 600 "$BASE_DIR/config.json"
 
 
 echo
