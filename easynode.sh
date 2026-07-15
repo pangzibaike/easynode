@@ -405,7 +405,7 @@ else
     WS_PATH=$(cat /proc/sys/kernel/random/uuid | cut -d "-" -f1)
 
 
-cat > $BASE_DIR/info <<EOF
+cat > "$BASE_DIR/info" <<EOF
 UUID=$UUID
 PORT=$PORT
 WS_PATH=$WS_PATH
