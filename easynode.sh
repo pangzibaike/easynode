@@ -412,6 +412,9 @@ WS_PATH=$WS_PATH
 EOF
 
 
+chmod 600 "$BASE_DIR/info"
+
+
 fi
 
 
