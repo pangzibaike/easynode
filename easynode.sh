@@ -398,7 +398,7 @@ if [ -f "$BASE_DIR/info" ]; then
 else
 
 
-    UUID=$(cat /proc/sys/kernel/random/uuid)
+    UUID=$(xray uuid)
 
     PORT=$((20000 + RANDOM % 40000))
 
