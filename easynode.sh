@@ -345,7 +345,7 @@ chmod +x /usr/local/bin/xray
 
 
 
-rm -rf /tmp/xray $TMP
+rm -rf /tmp/xray "$TMP"
 
 
 
