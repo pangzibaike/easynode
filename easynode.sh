@@ -776,6 +776,9 @@ NODE="vless://$UUID@$DOMAIN:443?encryption=none&security=tls&type=ws&host=$DOMAI
 echo "$NODE" > "$BASE_DIR/node.txt"
 
 
+chmod 600 "$BASE_DIR/node.txt"
+
+
 echo
 
 echo "=============================="
