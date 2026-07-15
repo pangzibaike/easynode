@@ -705,8 +705,7 @@ echo
 echo "获取 Cloudflare Tunnel 地址"
 
 
-if [ -f "$BASE_DIR/domain" ]
-then
+unset DOMAIN
 
 
 for i in {1..12}
