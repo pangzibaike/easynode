@@ -267,9 +267,6 @@ mkdir -p $BASE_DIR
 chmod 700 "$BASE_DIR"
 
 
-chmod 600 "$BASE_DIR"/*
-
-
 }
 
 
