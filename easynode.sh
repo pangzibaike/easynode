@@ -752,9 +752,6 @@ fi
 DOMAIN=${DOMAIN#https://}
 
 
-echo "$DOMAIN" > "$BASE_DIR/domain"
-
-
 echo
 
 echo "Tunnel 地址:"
