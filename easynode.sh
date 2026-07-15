@@ -604,7 +604,7 @@ esac
 
 echo "下载 cloudflared..."
 
-curl -fL --retry 5 "$URL" -o /usr/local/bin/cloudflared
+curl -fL --retry 5 "$URL" -o "/usr/local/bin/cloudflared"
 
 
 
