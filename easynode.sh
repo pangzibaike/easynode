@@ -774,9 +774,6 @@ echo "生成节点"
 source "$BASE_DIR/info"
 
 
-DOMAIN=$(cat "$BASE_DIR/domain")
-
-
 
 NODE="vless://$UUID@$DOMAIN:443?encryption=none&security=tls&type=ws&host=$DOMAIN&path=%2F$WS_PATH"
 
