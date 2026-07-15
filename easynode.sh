@@ -400,7 +400,7 @@ else
 
     UUID=$(cat /proc/sys/kernel/random/uuid)
 
-    PORT=$(shuf -i 20000-60000 -n1)
+    PORT=$((20000 + RANDOM % 40000))
 
     WS_PATH=$(cat /proc/sys/kernel/random/uuid | cut -d "-" -f1)
 
