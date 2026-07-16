@@ -2,7 +2,7 @@
 
 VPS 一键节点部署工具
 
-## 安装：复制下面的命令，粘贴到服务器后，回车即可。
+## 复制下面的命令，粘贴到服务器后，回车即可。
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/pangzibaike/easynode/main/easynode.sh | bash
