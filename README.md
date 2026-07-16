@@ -2,13 +2,13 @@
 
 VPS 一键节点部署工具
 
-## Install
+## 安装：复制下面的命令，粘贴到服务器后，回车即可。
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/pangzibaike/easynode/main/easynode.sh | bash
 ```
 
-## Features
+## 特性：
 
 - 首次使用：运行脚本即可完成部署并生成节点。
 - 如果 VPS 重启，建议再次运行脚本，以获取最新的 Cloudflare Quick Tunnel 地址。
